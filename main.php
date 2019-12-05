@@ -36,7 +36,7 @@ require("1_head.php");
         .next {
             cursor: pointer;
             position: absolute;
-            top: 50%;
+            top: 50%; margin:auto auto; display:block;;
             width: auto;
             padding: 16px;
             margin-top: -22px;
@@ -62,8 +62,8 @@ require("1_head.php");
 
         /* Caption text */
         .text {
-            color: #f2f2f2;
-            font-size: 15px;
+            color: black;
+            font-size: 36px;
             padding: 8px 12px;
             position: absolute;
             bottom: 8px;
@@ -73,7 +73,7 @@ require("1_head.php");
 
         /* Number text (1/3 etc) */
         .numbertext {
-            color: #f2f2f2;
+            color: black;
             font-size: 12px;
             padding: 8px 12px;
             position: absolute;
@@ -87,7 +87,7 @@ require("1_head.php");
             width: 15px;
             margin: 0 2px;
             background-color: #bbb;
-            border-radius: 50%;
+            border-radius: 50%; margin:auto auto; display:block;;
             display: inline-block;
             transition: background-color 0.6s ease;
         }
@@ -102,7 +102,7 @@ require("1_head.php");
             -webkit-animation-name: fade;
             -webkit-animation-duration: 1.5s;
             animation-name: fade;
-            animation-duration: 15s;
+            animation-duration: 7200s;
         }
 
         @-webkit-keyframes fade {
@@ -117,7 +117,7 @@ require("1_head.php");
 
         @keyframes fade {
             from {
-                opacity: .4
+                opacity: 1
             }
 
             to {
@@ -171,54 +171,50 @@ require("1_head.php");
 
     <!-- Slideshow container -->
     <div class="slideshow-container">
-
+        <br><br>
         <!-- Full-width images with number and caption text -->
         <div class="mySlides fade">
-            <div class="numbertext">1 / 8</div>
-            <img src="images/1.jpg" style="width:100%">
-            <div class="text">Caption Text</div>
+            <div class="numbertext">1 / 9</div>
+            <a href="1.php"><img src="images/10.jpg" style="width:50%; margin:auto auto; display:block;"></<a>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 9</div>
+            <a href="2.php"><img src="images/20.jpg" style="width:50%; margin:auto auto; display:block;"></a>
         </div>
 
         <div class="mySlides fade">
-            <div class="numbertext">2 / 8</div>
-            <img src="images/2.jpg" style="width:100%">
-            <div class="text">Caption Two</div>
+            <div class="numbertext">3 / 9</div>
+            <a href="3.php"><img src="images/30.jpg" style="width:50%; margin:auto auto; display:block;"></a>
         </div>
 
         <div class="mySlides fade">
-            <div class="numbertext">3 / 8</div>
-            <img src="images/3.jpg" style="width:100%">
-            <div class="text">Caption Three</div>
+            <div class="numbertext">4 / 9</div>
+            <a href="4.php"><img src="images/40.jpg" style="width:50%; margin:auto auto; display:block;"></a>
         </div>
 
         <div class="mySlides fade">
-            <div class="numbertext">4 / 8</div>
-            <img src="images/4.jpg" style="width:100%">
-            <div class="text">Caption Three</div>
+            <div class="numbertext">5 / 9</div>
+            <a href="5.php"><img src="images/50.jpg" style="width:50%; margin:auto auto; display:block;"></a>
         </div>
 
         <div class="mySlides fade">
-            <div class="numbertext">5 / 8</div>
-            <img src="images/5.jpg" style="width:100%">
-            <div class="text">Caption Three</div>
+            <div class="numbertext">6 / 9</div>
+            <a href="6.php"><img src="images/60.jpg" style="width:50%; margin:auto auto; display:block;"></a>
         </div>
 
         <div class="mySlides fade">
-            <div class="numbertext">6 / 8</div>
-            <img src="images/6.jpg" style="width:100%">
-            <div class="text">Caption Three</div>
+            <div class="numbertext">7 / 9</div>
+            <a href="7.php"><img src="images/70.jpg" style="width:50%; margin:auto auto; display:block;"></a>
         </div>
 
         <div class="mySlides fade">
-            <div class="numbertext">7 / 8</div>
-            <img src="images/7.jpg" style="width:100%">
-            <div class="text">Caption Three</div>
+            <div class="numbertext">8 / 9</div>
+            <a href="8.php"><img src="images/80.jpg" style="width:50%; margin:auto auto; display:block;"></a>
         </div>
 
         <div class="mySlides fade">
-            <div class="numbertext">8 / 8</div>
-            <img src="images/8.jpg" style="width:100%">
-            <div class="text">Caption Three</div>
+            <div class="numbertext">9 / 9</div>
+            <a href="9.php"><img src="images/90.jpg" style="width:50%; margin:auto auto; display:block;"></a>
         </div>
 
         <!-- Next and previous buttons -->
@@ -237,6 +233,7 @@ require("1_head.php");
         <span class="dot" onclick="currentSlide(6)"></span>
         <span class="dot" onclick="currentSlide(7)"></span>
         <span class="dot" onclick="currentSlide(8)"></span>
+        <span class="dot" onclick="currentSlide(9)"></span>
     </div>
 
     <div>

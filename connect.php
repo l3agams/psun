@@ -1,8 +1,8 @@
 <?php
-    $localhost = "127.0.0.1";
-    $user = "root";
-    $pass = "";
-    $dbname = "healthy-lifestyle";
+    $localhost = "sql209.freehost.in.th";
+    $user = "feton_24851758";
+    $pass ="pnn4ever";
+    $dbname = "feton_24851758_healthylifestyle";
     
     $connect = new mysqli($localhost,$user,$pass,$dbname);
 

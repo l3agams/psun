@@ -43,7 +43,7 @@ require("1_head.php");
         <br>
         <tr>
             <td align="center">
-                <img src="images/2.jpg">
+                <a href="topfive.php"><img src="images/2.jpg"></a>
             </td>
         </tr>
     </table>

@@ -116,11 +116,13 @@ require("connect.php");
 </html>
 <?php
 if (isset($_POST['submit'])) {
+    
     $comment_details = $_POST['comment_details'];
 
     $sql = "INSERT INTO comment (comment_details) VALUES ('$comment_details')";
 
     $query = mysqli_query($connect, $sql);
+    echo "<meta http-equiv='refresh' content='0'>";
 } else {
     echo "error!!";
 }
